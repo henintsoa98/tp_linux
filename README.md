@@ -61,7 +61,7 @@ int main ()
 }
 EOF
 ```
-**Methode 2** : redirection + echo , si vous utiliser " dans le code, vous devez utiliser \" parce que c'est le limiteur de fin et on doit l'echapper
+**Methode 2** : redirection + echo , si vous utiliser " dans le code, vous devez utiliser \\" parce que c'est le limiteur de fin et on doit l'echapper
 ```bash
 echo "
 #include <stdio.h>
